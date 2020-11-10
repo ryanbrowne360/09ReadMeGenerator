@@ -1,8 +1,4 @@
-// function to generate markdown for READMEad
-
-
-function generateMarkdown(data) {
-  return `# ${data.title}
+# ReadMe Generator
   
   ## Table of contents
   - [Description](#description)
@@ -17,50 +13,35 @@ function generateMarkdown(data) {
 
   ## Description
 
-  ${data.description}
+  Text goes here
 
   ## Installation
 
-  ${data.installation}
+  Text goes here
 
   ## Usage
 
-  ${data.usage}
+  Text goes here
 
   ## Licensing
 
-  ${data.license}
+  Text goes here
 
   ## Contributors
 
-  ${data.contributors}
+  Text goes here
 
   ## Github Username
 
-  ${data.username}
+  Text goes here
 
   ## Email Address
 
-  ${data.email}
+  Text goes here
 
   ## Badges
 
-  ${data.badges}
+  JavaScript,HTML,CSS
 
   
-
-`;
-}
-
-//$(#addtoendofreadme)
-
-
-
-module.exports = generateMarkdown;
-
-
-
-
-
-
 

@@ -5,7 +5,7 @@ const fs = require('fs')
 //requires npm inquirer
 const inquirer = require('inquirer')
 
-//requires the generate markdown functions which are exported from generateMarkdown.js
+//requires the generate markdown function which is exported from generateMarkdown.js This function will take the value the user inputs when running this program and use it to write the readme doc.
 const create = require('./utils/generateMarkdown.js')
 
 
@@ -93,23 +93,3 @@ async function writeToFile() {
 
 writeToFile()
 
-
-
-
-
-
-/*
-function AskQuestions()
-
-
-// function to write README file
-function writeToFile(results.json, data) {
-}
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init(); */
