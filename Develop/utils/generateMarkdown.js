@@ -10,7 +10,7 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [License](#licensing)
   - [Contributors](#contributors)
-  - [Github Username](#username)
+  - [Github Username](#github username)
   - [Email Address](#email)
   - [Badges](#badges)
   - [Questions](#questions)
