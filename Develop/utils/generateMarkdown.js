@@ -11,7 +11,7 @@ function generateMarkdown(data) {
   - [License](#license)
   - [Contributors](#contributors)
   - [Github Username](#username)
-  - [Email Address](#email address)
+  - [Email Address](#email)
   - [Badges](#badges)
   - [Questions](#questions)
 
