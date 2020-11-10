@@ -8,7 +8,7 @@ function generateMarkdown(data) {
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#license)
+  - [License](#licensing)
   - [Contributors](#contributors)
   - [Github Username](#username)
   - [Email Address](#email)
