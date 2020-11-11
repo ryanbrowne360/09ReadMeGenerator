@@ -45,11 +45,9 @@ function generateMarkdown(data) {
 
   ## Badges
 
-  ${data.badges}
-  ${data.badges}
-  ${data.badges}
+  ${data.badges.join('\n')}
 
-*Thank you for your interest. This document was created using the **[ReadMe Generator](https://github.com/ryanbrowne360/09ReadMeGenerator.git)**
+ **Thank you for your interest. This document was created using the **[ReadMe Generator](https://github.com/ryanbrowne360/09ReadMeGenerator.git)**
   
 
 `;
