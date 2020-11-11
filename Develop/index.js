@@ -73,7 +73,7 @@ async function writeToFile() {
     let badgeType = userInput.badges
     userInput.badges = [];
 
-    
+    // for loop to add each badge into the defined array, to ensure they all show individually and clearly
     function addBadges() {
         for (let i = 0; i < badgeType.length; i += 1) {
           if (badgeType[i] == 'JavaScript') {

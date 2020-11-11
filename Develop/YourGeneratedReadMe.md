@@ -1,4 +1,4 @@
-# testing
+# Readme Generator
   
   ## Table of contents
   - [Description](#description)
@@ -13,36 +13,37 @@
 
   ## Description
 
-  testing
+  lorem ipsum...
 
   ## Installation
 
-  testing
+  lorum ipsum...
 
   ## Usage
 
-  testing
+  lorum ipsum...
 
   ## Licensing
 
-  testing
+  lorum ipsum...
 
   ## Contributors
 
-  testing
+  lorum ipsum...
 
   ## Github Username
 
-  testing
+  lorum ipsum...
 
   ## Email Address
 
-  testing
+  lorum ipsum...
 
   ## Badges
 
-  ![JavaScript](https://img.shields.io/github/languages/top/nielsenjared/badmath),![HTML](https://img.shields.io/badge/HTML-100%25-orange),![CSS](https://img.shields.io/badge/CSS-100%25-yellowgreen)
-  
+  ![JavaScript](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+  ![JavaScript](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+  ![JavaScript](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
 *Thank you for your interest. This document was created using the **[ReadMe Generator](https://github.com/ryanbrowne360/09ReadMeGenerator.git)**
   
