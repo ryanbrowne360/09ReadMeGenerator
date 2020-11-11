@@ -46,17 +46,16 @@ function generateMarkdown(data) {
   ## Badges
 
   ${data.badges}
+  ${data.badges}
+  ${data.badges}
 
+*Thank you for your interest. This document was created using the **[ReadMe Generator](https://github.com/ryanbrowne360/09ReadMeGenerator.git)**
   
 
 `;
 
+
 }
-
-
-
-
-
 
 module.exports = generateMarkdown;
 

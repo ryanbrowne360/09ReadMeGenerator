@@ -71,21 +71,26 @@ async function writeToFile() {
 
 
     let badgeType = userInput.badges
+    userInput.badges = [];
 
     
     function addBadges() {
-        if (badgeType == 'JavaScript') {
-            userInput.badges = `![JavaScript](https://img.shields.io/github/languages/top/nielsenjared/badmath)`
+        for (let i = 0; i < badgeType.length; i += 1) {
+          if (badgeType[i] == 'JavaScript') {
+            userInput.badges.push(
+              `![JavaScript](https://img.shields.io/github/languages/top/nielsenjared/badmath)`
+            );
+          } else if (badgeType[i] == 'HTML') {
+            userInput.badges.push(
+              `![HTML](https://img.shields.io/badge/HTML-100%25-orange)`
+            );
+          } else if (badgeType[i] == 'CSS') {
+            userInput.badges.push(
+              `![CSS](https://img.shields.io/badge/CSS-100%25-yellowgreen)`
+            );
+          }
         }
-
-        else if (badgeType == 'HTML') {
-            userInput.badges = `![HTML](https://img.shields.io/badge/HTML-100%25-orange)`
-        }
-
-        else if (badgeType == 'CSS') {
-            userInput.badges = `![CSS](https://img.shields.io/badge/CSS-100%25-yellowgreen)`
-        }
-    }
+      }
     addBadges()
 
 
@@ -94,4 +99,6 @@ async function writeToFile() {
 }
 
 writeToFile()
+
+//add another question asking for link to image of their working application, then insert that value in a markup friendly output
 
