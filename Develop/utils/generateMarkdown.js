@@ -1,6 +1,6 @@
+const endOfReadme = "*Thank you for your interest. This document was created using the **[ReadMe Generator](https://github.com/ryanbrowne360/09ReadMeGenerator.git)**";
+
 // function to generate markdown for READMEad
-
-
 function generateMarkdown(data) {
   return `# ${data.title}
   
@@ -10,7 +10,7 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [License](#licensing)
   - [Contributors](#contributors)
-  - [Github Username](#github username)
+  - [Github Username](#github)
   - [Email Address](#email)
   - [Badges](#badges)
   - [Questions](#questions)
@@ -50,9 +50,11 @@ function generateMarkdown(data) {
   
 
 `;
+
 }
 
-//$(#addtoendofreadme)
+
+
 
 
 
